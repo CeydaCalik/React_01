@@ -19,7 +19,14 @@ export const Demo2 = (props) => {
     return (
                 
                 <div className={style.pet}>
+
                     <p>{owner}, parle moi de ton animal 😌</p>
+                    
+                    <p> Votre animal est un { (type === "chat")?'😺' : '🐶'} </p>
+                    
+                    <p> Son petit nom est : <span> { name || 'Inconnu' } </span> </p>
+
+                    { image && <img width="150px" src={image} /> }
                 </div>
     )
 }
