@@ -1,0 +1,45 @@
+.film{
+    width: 400px;
+    height: 650px;
+    aspect-ratio: 3/4;
+    box-shadow: rgb(255, 223, 223) 1px 3px 8px;
+    background-color: #8b7663e7;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.coupDeCoeur{
+    box-shadow: #e5a92b 5px 3px 40px ;
+    border-radius: 1.3rem;
+}
+
+
+img{
+    border: solid 3px rgb(0, 0, 0); 
+}
+
+.text{
+    font-size: 1rem;
+    font-style:italic ;
+}
+
+.title {
+    text-shadow: rgba(236, 204, 204, 0.808) 6px 5px 80px ;
+    font-size: 2rem;
+    
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+}

@@ -4,20 +4,33 @@ import { Exo_1Component } from './exos/1_Creation_composant/Exo_1Component'
 import { Demo2 } from './assets/demos/2_Conditionnel/Demo2'
 import { Exo_2 } from './exos/2_Afficher_Conditionnel/Exo_2'
 import { Demo3 } from './assets/demos/3_Collection/Demo3'
+import { Exo_3 } from './exos/3_Liste_Films/Exo_3'
+import { Demo4 } from './assets/demos/4_Event/Demo4'
 
 
 function App() {
 
   return (
     <>
+
+                    {/* //? DEMO 1
       <Demo1Component name="HTML" type="Front-End" difficulty={5} />
 
       <Demo1Component name="Express" type="Back-End" difficulty={7} />
 
       <Demo1Component />
+
+
+
+
+
                   //? Exercice 1
       <Exo_1Component name="Grace" />
       <Exo_1Component name="Velo" />
+
+
+
+
 
                   //? DEMO 2
 
@@ -39,6 +52,23 @@ function App() {
       <Exo_2 isAvailable={false} name="Gun"/>
       <Exo_2 isAvailable={true} name="Knives" image="https://assets.katogroup.eu/i/katogroup/FOFX-592_05_fox-knives-fairbairn-fofx-592-05" description="Black knive, very subtil" price={50} />
       <Exo_2 isAvailable={true} name="Nunchaku" image="https://www.katanas-samurai.com/img_pro/1072328/-311-Z-1-qexzyriquf.webp" description="Nunchaku made of inox " price={500} />
+
+
+
+          //? DEMO 3
+          <Demo3 /> */}
+{/* 
+
+
+
+          //? Exercice 3
+
+      <Exo_3 /> */}
+
+
+                      //? DEMO 4 
+      <Demo4 />
+
     </>
   )
 }
