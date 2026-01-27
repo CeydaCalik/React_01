@@ -7,6 +7,7 @@ import { Demo3 } from './assets/demos/3_Collection/Demo3'
 import { Exo_3 } from './exos/3_Liste_Films/Exo_3'
 import { Demo4 } from './assets/demos/4_Event/Demo4'
 import { Demo5 } from './assets/demos/5_State/Demo5'
+import { Exo_4 } from './exos/4_Event/Exo_4'
 
 
 function App() {
@@ -73,7 +74,10 @@ function App() {
 {/* 
                     //? DEMO 5 */}
 
-      <Demo5 />
+      {/* <Demo5 /> */}
+
+                    //? Exercice 4
+    <Exo_4 />               
 
     </>
 
