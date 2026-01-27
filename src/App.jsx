@@ -6,6 +6,7 @@ import { Exo_2 } from './exos/2_Afficher_Conditionnel/Exo_2'
 import { Demo3 } from './assets/demos/3_Collection/Demo3'
 import { Exo_3 } from './exos/3_Liste_Films/Exo_3'
 import { Demo4 } from './assets/demos/4_Event/Demo4'
+import { Demo5 } from './assets/demos/5_State/Demo5'
 
 
 function App() {
@@ -55,21 +56,28 @@ function App() {
 
 
 
-          //? DEMO 3
-          <Demo3 /> */}
-{/* 
+         //? DEMO 3
+//           <Demo3 /> */} {/* 
 
 
 
           //? Exercice 3
 
-      <Exo_3 /> */}
+//       <Exo_3 /> */}
 
 
-                      //? DEMO 4 
-      <Demo4 />
+
+                  {/* //? DEMO 4  */}
+   {/* <Demo4 /> */}
+
+{/* 
+                    //? DEMO 5 */}
+
+      <Demo5 />
 
     </>
+
+
   )
 }
 
