@@ -7,14 +7,72 @@ h1{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
     padding: 2rem;
+    background-color: gray;
 }
 
 .indv{
     display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    padding: 1rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: blue;
+    
+    gap: 5rem;
+    padding: 3rem;
+    height: 40%;
 
+}
+
+.indv span{
+    padding: 2rem;
+}
+
+.indv p{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.orgFood {
+    display: flex;
+    flex-direction: row;
+    background-color: yellowgreen;
+
+}
+
+
+/* .org{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+} */
+
+.category{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+
+    width: 60%;
+    height: 40%;
+}
+
+.category2{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 60%;
+    height: 40%;
+
+}
+
+.category2 button{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+    
 }
