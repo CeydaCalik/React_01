@@ -10,6 +10,7 @@ import { Demo5 } from './assets/demos/5_State/Demo5'
 import { Exo_4 } from './exos/4_Event/Exo_4'
 import { Demo6 } from './assets/demos/6_Formulaire/Demo6'
 import { Demo6Bis } from './assets/demos/6_Formulaire/6_Bis/Demo6Bis'
+import { Demo6Lib } from './assets/demos/6_Formulaire/6_lib/Demo6Lib.jsx'
 
 
 function App() {
@@ -84,7 +85,8 @@ function App() {
           //? DEMO 6
 
           <Demo6 />      
-          <Demo6Bis />      
+          <Demo6Bis />
+          <Demo6Lib />      
 
     </>
 
