@@ -93,13 +93,13 @@ function App() {
                 {/* //? Exercice 5 
           <Exo_5 /> */}
 
-                      //? DEMO 7
+                      {/* //? DEMO 7 */}
 
     <Demo7/>
 
 
 
-    
+
         </>
 
 

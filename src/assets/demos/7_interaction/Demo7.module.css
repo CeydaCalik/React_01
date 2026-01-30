@@ -1,0 +1,29 @@
+.parent {
+    padding: 1rem;
+    border-radius: 1rem;
+    border : 2px solid teal;
+}
+
+.enfant {
+    padding: 1rem;
+    border-radius: 1rem;
+    border : 2px solid chocolate;
+    margin-bottom: 1rem;
+}
+
+.pic{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1d6549;
+    
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 2px #1d6549;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.pic img{
+
+    border : solid 2px  #1d6549;
+}
