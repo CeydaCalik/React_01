@@ -1,0 +1,81 @@
+form{
+    display: flex;
+    align-items: center;
+    
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    
+
+    background-color: #7e9f84;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: #428f71 solid 20px;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    
+    width: 450px;
+    
+    padding: 2rem;
+    border-radius: 1rem;
+
+    border: #7e9f84 5px solid;
+    background-color: #1d6549;
+}
+
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: #7e9f84 2px solid;
+    height: 30px;
+
+    background-color: #428f71;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+
+.number {
+
+    color: #000000;
+    font-weight: bold;
+
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.number input {
+    width: 70px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    background-color: #428f71;
+    font-weight: bold;
+    border: #7e9f84 2px solid;
+}
+
+optgroup option{
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+    background-color: #428f71;
+    font-weight: bold;
+}
